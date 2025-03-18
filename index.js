@@ -4,7 +4,7 @@ const { auth, JWT_SECRET } = require("./auth");
 const jwt = require("jsonwebtoken");
 const mongoose = require("mongoose");
 
-mongoose.connect("mongodb+srv://amitpallai:1234@cluster0.k5rv7.mongodb.net/taskdb")
+mongoose.connect("")
 
 const app = express();
 app.use(express.json());
